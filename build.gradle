@@ -21,11 +21,14 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+java {
+    sourceCompatibility = JavaVersion.VERSION_22
+    targetCompatibility = JavaVersion.VERSION_22
+}
+
 
 ext {
-    slf4jVersion = '1.7.7'
+    slf4jVersion = '1.7.30'
     serenityCoreVersion = '3.3.4'
     serenityCucumberVersion = '3.3.4'
     junitVersion = '4.13.1'
@@ -35,6 +38,7 @@ ext {
 
 dependencies {
     implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+    implementation "org.slf4j:slf4j-api:${slf4jVersion}"
 
     testImplementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}",

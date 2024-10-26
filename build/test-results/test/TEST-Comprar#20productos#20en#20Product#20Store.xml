@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Comprar productos en Product Store" tests="3" skipped="0" failures="3" errors="0" timestamp="2024-10-26T12:42:41" hostname="Laptop-de-sebastian.local" time="0.127">
+  <properties/>
+  <testcase name="Registro de un nuevo usuario" classname="Comprar productos en Product Store" time="0.107">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'que estoy en la página de Product Store' and 2 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estoy en la página de Product Store&quot;)&#10;public void que_estoy_en_la_página_de_product_store() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;registro un nuevo usuario con nombre {string} y contraseña {string}&quot;)&#10;public void registro_un_nuevo_usuario_con_nombre_y_contraseña(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;debería ver un mensaje de registro exitoso&quot;)&#10;public void debería_ver_un_mensaje_de_registro_exitoso() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'que estoy en la página de Product Store' and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;que estoy en la página de Product Store&quot;)
+public void que_estoy_en_la_página_de_product_store() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;registro un nuevo usuario con nombre {string} y contraseña {string}&quot;)
+public void registro_un_nuevo_usuario_con_nombre_y_contraseña(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;debería ver un mensaje de registro exitoso&quot;)
+public void debería_ver_un_mensaje_de_registro_exitoso() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <testcase name="Compra de un producto #1" classname="Comprar productos en Product Store" time="0.012">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'que estoy en la página de Product Store' and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estoy en la página de Product Store&quot;)&#10;public void que_estoy_en_la_página_de_product_store() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;selecciono la categoría {string}&quot;)&#10;public void selecciono_la_categoría(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;elijo el producto {string}&quot;)&#10;public void elijo_el_producto(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;lo añado al carrito&quot;)&#10;public void lo_añado_al_carrito() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;debería ver el producto {string} en el carrito&quot;)&#10;public void debería_ver_el_producto_en_el_carrito(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'que estoy en la página de Product Store' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;que estoy en la página de Product Store&quot;)
+public void que_estoy_en_la_página_de_product_store() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;selecciono la categoría {string}&quot;)
+public void selecciono_la_categoría(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;elijo el producto {string}&quot;)
+public void elijo_el_producto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;lo añado al carrito&quot;)
+public void lo_añado_al_carrito() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;debería ver el producto {string} en el carrito&quot;)
+public void debería_ver_el_producto_en_el_carrito(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <testcase name="Compra de un producto #2" classname="Comprar productos en Product Store" time="0.008">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'que estoy en la página de Product Store' and 4 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;que estoy en la página de Product Store&quot;)&#10;public void que_estoy_en_la_página_de_product_store() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;selecciono la categoría {string}&quot;)&#10;public void selecciono_la_categoría(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;elijo el producto {string}&quot;)&#10;public void elijo_el_producto(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;lo añado al carrito&quot;)&#10;public void lo_añado_al_carrito() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;debería ver el producto {string} en el carrito&quot;)&#10;public void debería_ver_el_producto_en_el_carrito(String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'que estoy en la página de Product Store' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;que estoy en la página de Product Store&quot;)
+public void que_estoy_en_la_página_de_product_store() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;selecciono la categoría {string}&quot;)
+public void selecciono_la_categoría(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;elijo el producto {string}&quot;)
+public void elijo_el_producto(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;lo añado al carrito&quot;)
+public void lo_añado_al_carrito() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;debería ver el producto {string} en el carrito&quot;)
+public void debería_ver_el_producto_en_el_carrito(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
